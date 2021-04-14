@@ -13,7 +13,7 @@ class Game {
 
   update(state){
     database.ref('/').update({
-      gameState: state
+      gameState: state,
     });
   }
 
